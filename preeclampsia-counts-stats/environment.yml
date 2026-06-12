@@ -1,0 +1,16 @@
+name: preeclampsia-stats
+channels: [conda-forge, bioconda]
+dependencies:
+  - r-base>=4.3
+  - r-tidyverse
+  - r-data.table
+  - r-pheatmap
+  - r-ggrepel
+  - r-yaml
+  - r-quarto
+  - bioconductor-deseq2
+  - bioconductor-ashr
+  - bioconductor-fgsea
+  - bioconductor-msigdbr
+  - bioconductor-org.hs.eg.db
+  - bioconductor-clusterprofiler

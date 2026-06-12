@@ -1,0 +1,8 @@
+by_placenta:
+  - {name: Temprana_vs_Control, numerator: Temprana, denominator: Control}
+  - {name: Tardia_vs_Control, numerator: Tardia, denominator: Control}
+  - {name: Tardia_vs_Temprana, numerator: Tardia, denominator: Temprana}
+maternal_fetal:
+  - {name: Control_Materna_vs_Fetal, group: Control}
+  - {name: Temprana_Materna_vs_Fetal, group: Temprana}
+  - {name: Tardia_Materna_vs_Fetal, group: Tardia}

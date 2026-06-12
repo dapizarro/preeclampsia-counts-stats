@@ -1,0 +1,15 @@
+paths:
+  gene_counts: data/raw_counts/genes_counts.csv
+  transcript_counts: data/raw_counts/transcripts_counts.csv
+  metadata: data/metadata/sample_sheet.csv
+columns:
+  sample_id: sample
+  placenta: placenta
+  group: grupo
+  delivery: parto
+  sex: sexo_rn
+thresholds:
+  fdr: 0.05
+  abs_log2fc: 1
+  min_count: 10
+  min_samples: 3

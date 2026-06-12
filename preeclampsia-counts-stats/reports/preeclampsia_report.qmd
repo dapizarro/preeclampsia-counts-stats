@@ -1,0 +1,24 @@
+---
+title: "Preeclampsia RNA-seq statistical report"
+format: html
+execute:
+  echo: false
+---
+
+# Overview
+
+This report summarizes QC, differential expression, enrichment and interaction analyses for the preeclampsia placental RNA-seq project.
+
+# QC
+
+![](../figures/qc/Figure_1_PCA_group_placenta.pdf)
+
+![](../figures/qc/Figure_2_sample_distance_heatmap.pdf)
+
+# Differential expression
+
+DESeq2 results are stored in `results/deseq2/`.
+
+# Enrichment
+
+Hallmark enrichment results are stored in `results/enrichment/`.
